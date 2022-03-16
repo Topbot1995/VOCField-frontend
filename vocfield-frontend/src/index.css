@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Scope+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@200;300;400;500;600;700&display=swap');
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --font-scope: 'Scope One', sans-serif;
+  --font-abhaya: 'Abhaya Libre', sans-serif;
+
+  --gradient1: linear-gradient(180deg, #3531A9 1.84%, #4303A4 102.67%);
+  /* --gradient1: linear-gradient(101.12deg, #3531A9 27.35%, #3531A9 99.99%, #4303A4 100%, #4303A4 100%); */
+  --primary-btn: linear-gradient(101.12deg, #EB1484 27.35%, #C91CC3 99.99%, #C81CC5 100%, #C81CC5 100%);
+  
+  --primary-color: #EB1484;
+  --secondary-color: #c81cc5;
+
+  --color-bg: #09002B;
+  --color-bg2: #11024B;
+  --color-card : #080808;
+  --color-footer : #24252D;
+}
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #2A2D3A #ffffff;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 14px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background: var(--color-card);
+    border-radius: 10px;
+    border: 3px none #ffffff;
+  }
+
