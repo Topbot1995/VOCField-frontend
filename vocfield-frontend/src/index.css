@@ -21,6 +21,13 @@
   --color-card : #080808;
   --color-footer : #24252D;
 }
+
+body {
+  background-color: var(--color-bg);
+  display: flex;
+  flex-direction: column;
+  padding: 1%;
+}
 /* ===== Scrollbar CSS ===== */
   /* Firefox */
   * {

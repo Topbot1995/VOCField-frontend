@@ -4,6 +4,7 @@ import Audit from '../../assets/audit.png';
 import WorkFlow1 from '../../assets/workflow1.png';
 import WorkFlow2 from '../../assets/workflow2.png';
 import Feature from '../../assets/feature.png';
+import CheckIcon from '../../assets/checkIcon.png';
 import logo from '../../assets/logo.png';
 import './home.css';
 const FooterLinks1 = () => (
@@ -43,7 +44,7 @@ const Home = () => {
         <div className='header'>
             <div className='header-content landing-page image-bg'>
                 <div className='landing-title'>
-                    <h3>VOC PROTOCOL</h3>
+                    <h1>VOC PROTOCOL</h1>
                     <p>The VOCYield protocol currently has $9876  of VOC earning 0.13% interest</p>
                 </div>
                 <div className='landing-mint'>
@@ -62,32 +63,32 @@ const Home = () => {
                 </div>
                 <div className='info-boxs'>
                     <div className='info-box'>
-                        <img alt="icon" />
+                        <img alt="icon" src={CheckIcon}/>
                         <h3>VOCYield Treasury</h3>
                         <p>Ths is Treasury feature box and you can use this</p>
                     </div>
                     <div className='info-box'>
-                        <img alt="icon" />
+                        <img alt="icon" src={CheckIcon} />
                         <h3>VOCYield Treasury</h3>
                         <p>Ths is Treasury feature box and you can use this</p>
                     </div>
                     <div className='info-box'>
-                        <img alt="icon" />
+                        <img alt="icon" src={CheckIcon} />
                         <h3>VOCYield Treasury</h3>
                         <p>Ths is Treasury feature box and you can use this</p>
                     </div>
                     <div className='info-box'>
-                        <img alt="icon" />
+                        <img alt="icon" src={CheckIcon} />
                         <h3>VOCYield Treasury</h3>
                         <p>Ths is Treasury feature box and you can use this</p>
                     </div>
                     <div className='info-box'>
-                        <img alt="icon" />
+                        <img alt="icon" src={CheckIcon} />
                         <h3>VOCYield Treasury</h3>
                         <p>Ths is Treasury feature box and you can use this</p>
                     </div>
                     <div className='info-box'>
-                        <img alt="icon" />
+                        <img alt="icon" src={CheckIcon} />
                         <h3>VOCYield Treasury</h3>
                         <p>Ths is Treasury feature box and you can use this</p>
                     </div>
