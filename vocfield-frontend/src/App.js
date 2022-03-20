@@ -1,17 +1,19 @@
 import './App.css';
 import { Navbar, Footer } from './components';
-import { Home } from './pages';
+import { Home, VOCDApp, GenesisDApp } from './pages';
 // import {Home, VOCDApp, GenesisDApp, Info} from './pages';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 const App = () => {
   return (
-    <div>
+    <div className='w-full'>
       <Navbar />      
       <Router>
-        <div className="App">
+        <div className="App w-full">
           <Routes>
             <Route exact path="/" element={<Home />} />
+            <Route path="/voc-dapp" element={<VOCDApp />} />
+            <Route path="/genesis-dapp" element={<GenesisDApp />} />
           </Routes>
         </div>
       </Router>

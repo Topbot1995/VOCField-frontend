@@ -1,0 +1,12 @@
+.connect-button {
+    background: var(--gradient1);    
+}
+.bg-grad-1 {
+    background: var(--gradient2);
+}
+.bg-grad-2 {
+    background: var(--gradient3);
+}
+.bg-grad-3 {
+    background: var(--gradient4);
+}
