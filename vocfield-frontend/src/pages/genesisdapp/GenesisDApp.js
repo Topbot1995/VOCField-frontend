@@ -198,7 +198,7 @@ const VOCDApp = () => {
                     <div className='md:w-1/5 w-full createnew flex flex-col md:ml-7'>
                         <div className='w-full h-80 flex flex-col space-y-5 px-5 pt-11 mx-auto mt-11 justify-center'>
                             <p className='md:text-2xl 1xl text-neutral-500 m-t-11'>Name</p>
-                            <input type="text" className='w-full rounded-full md:text-2xl 1xl border-2 border-pink-600 bg-white focus:outline-none' />
+                            <input type="text" className='w-full rounded-full md:text-2xl text-1xl px-4 py-1 border-2 border-pink-600 bg-white focus:outline-none' />
                             <button className='w-full rounded-full md:text-2xl 1xl bg-purple-600 text-white p-2'>Create New</button>
                         </div>
                     </div>
