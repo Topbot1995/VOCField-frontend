@@ -1,0 +1,89 @@
+.header {
+    color: white;
+    .infoContainer {
+        > h1 {
+            text-align: center;
+            font-size: 5rem;
+            @media screen and (max-width: 768px) {
+                font-size: 2.5rem;
+            }
+        }
+        > p {
+            text-align: center;
+            margin: auto;
+            font-size: 2rem;
+            width: 70%;
+            @media screen and (max-width: 768px) {
+                font-size: 1rem;
+            }
+        }
+        .tile-boxs {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+            text-align: center;
+            padding: 6rem;
+            .tile-box {
+                width: 40%;
+                padding: 4rem;
+                background-color: #000000;
+                border: 1px solid #4f4f4f;
+                border-radius: 3rem;
+                margin-bottom: 8rem;
+                img {
+                    margin: auto;
+                }
+                h3 {
+                    font-size: 3rem;
+                }
+                p {
+                    font-size: 1.5rem;
+                }
+                @media screen and (max-width: 768px) {
+                    width: 100%;
+                    padding: 1rem;
+                    h3 {
+                        font-size: 1.5rem;
+                    }
+                    p {
+                        font-size: 1rem;
+                    }
+                }
+            }
+            @media screen and (max-width: 768px) {
+                width: 90%;
+                padding: 1rem;
+                margin: auto;
+            }
+        }
+        .info-box {
+            padding: 4rem 10rem;
+            img {
+                width: 50%;
+            }
+            .float-left {
+                float: left;
+            }
+            .float-right {
+                float: right;
+            }
+            p {
+                padding-left: 3rem;
+                font-size: 1.8rem;
+            }
+            @media screen and (max-width: 768px) {
+                padding: 1rem 2.5rem;
+                img {
+                    width: 100%;
+                }
+                p {
+                    padding-left: 1rem;
+                    font-size: 1rem;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}

@@ -16,7 +16,9 @@
   --gradient1: linear-gradient(180deg, #3531A9 1.84%, #4303A4 102.67%);
   --gradient2: linear-gradient(270deg, #5F0A87 1.84%, #A4508B 102.67%);
   --gradient3: linear-gradient(270deg, #FFA69E 1.84%, #861657 102.67%);
-  --gradient4: linear-gradient(270deg, #C373F2 1.84%, #F977CE 102.67%);  
+  --gradient4: linear-gradient(270deg, #C373F2 1.84%, #F977CE 102.67%);
+  --gradient5: linear-gradient(180deg, #FFA69E 1.84%, #861657 102.67%);  
+  --gradient6: linear-gradient(180deg, #5F0A87 1.84%, #4303A4 102.67%);  
   /* --gradient1: linear-gradient(101.12deg, #3531A9 27.35%, #3531A9 99.99%, #4303A4 100%, #4303A4 100%); */
   --primary-btn: linear-gradient(101.12deg, #EB1484 27.35%, #C91CC3 99.99%, #C81CC5 100%, #C81CC5 100%);
   

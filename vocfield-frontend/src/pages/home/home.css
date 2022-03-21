@@ -24,8 +24,7 @@
 }
 
 .landing-page {
-    display: flex;
-    
+    display: flex;    
     background-image: url(../../assets/main-bg.png);
     align-items: flex-start;
     color: white;

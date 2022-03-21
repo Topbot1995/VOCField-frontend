@@ -1,0 +1,21 @@
+.bg-grad-4 {
+    background: var(--gradient5);
+}
+.bg-grad-5 {
+    background: var(--gradient6);
+}
+.text-thead {
+    color:#31DEE9;
+}
+.createnew {
+    background-image:url('../../assets/createNew.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+@media screen and (max-width:1024px) {
+    .createnew { 
+        background-image: none;
+    }
+}

@@ -16,6 +16,7 @@ const Menu = () => {
             <a className="navbar-links" href="/uniswap"><p>UniSwap</p></a>
             <a className="navbar-links" href="/genesis-dapp"><p>Genesis DApp</p></a>
             <a className="navbar-links" href="/voc-dapp"><p>VOC DApp</p></a>
+            <a className="navbar-links" href="/information"><p>Information</p></a>
         </>
     )
 }
