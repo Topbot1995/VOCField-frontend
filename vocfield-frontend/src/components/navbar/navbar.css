@@ -91,11 +91,14 @@
 @media screen and (max-width:700px) {
     .navbar-links_container > .social-links {
         display: none;
-    }
+    }    
     .navbar-menu_container-links > div {
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+    .navbar-menu_container {
+        margin-bottom: 3rem;
     }
 }
 
